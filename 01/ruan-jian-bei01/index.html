@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 学习助手</title>
+
+  <link rel="stylesheet" href="welcome.css">
+</head>
+
+<body>
+  <div id="welcome">
+    <div class="mask"></div>
+    <div class="content">
+      <h1>AI 学习助手</h1>
+      <p class="slogan">智能陪伴 · 高效学习 · 个性化成长</p>
+      <p class="desc">学习资料 | 记忆智能体 | 学生画像</p>
+      <button class="enter-btn" onclick="enterSystem()">进入系统</button>
+    </div>
+  </div>
+
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+
+  <script>
+    function enterSystem() {
+      document.getElementById('welcome').style.display = 'none'
+      document.getElementById('app').style.display = 'block'
+    }
+  </script>
+</body>
+</html>
