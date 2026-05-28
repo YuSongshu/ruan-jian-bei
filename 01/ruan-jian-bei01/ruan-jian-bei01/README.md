@@ -12,7 +12,7 @@
 │   │   	├── tool（主页面组件（配置/登录/主面板））
 │   │ 		└── tool_css.css 全局样式
 │  	├── App.vue
-│  	└──main.js
+│  	└── main.js
 │ 	
 ├── 后端FastAPI
 │   └── main
