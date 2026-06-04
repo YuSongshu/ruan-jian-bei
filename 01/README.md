@@ -15,7 +15,9 @@
 │  	└── main.js
 │ 	
 ├── 后端FastAPI
-│   └── main
+│   ├── api
+│	├── method
+│	└── main
 │
 └── 数据库(MySQL)
     └── ai_study 数据库 + 对应数据表
@@ -138,6 +140,9 @@ CREATE TABLE chat_history (
 
 ## 启动方式
 ### 后端
+
+运行main.py
+
 ```bash
 # 启动服务
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
