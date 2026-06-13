@@ -15,8 +15,7 @@
 │  	└── main.js
 │ 	
 ├── 后端FastAPI
-│   ├── api
-│	├── method
+│   ├── dao
 │	└── main
 │
 └── 数据库(MySQL)
