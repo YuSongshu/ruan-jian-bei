@@ -160,7 +160,7 @@ const config = ref({
   mysql_user: "root",
   mysql_password: "",
   mysql_database: "ai_study",
-  ai_model: "qwen-turbo-latest",
+  ai_model: "qwen-turbo",
   ai_api_key: "",
   ai_base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
 })
